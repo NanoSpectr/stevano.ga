@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> Stevano HP </title>
+<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -19,9 +20,9 @@ function copyToClipboard(element) {
     <input type="submit" value="Spanish Letters">
 </form>
 <h1> Other Stuff </h1>
-<p align="center"> These buttons copy stuff to your clipboard or open a new page. </p>
-<button onclick="copyToClipboard('#p2')">Discord</button><br/>
-<button onclick="copyToClipboard('#p1')">Battle.net</button><br/>
+<p align="center"> Black buttons copy stuff to your clipboard. Blue buttons open a new page. </p>
+<button class="button1" onclick="copyToClipboard('#p2')">Discord</button><br/><br/>
+<button class="button1" onclick="copyToClipboard('#p1')">Battle.net</button><br/><br/>
 <form action="http://steamcommunity.com/id/spectrogaming">
     <input type="submit" value="Steam (Page)">
 </form>
