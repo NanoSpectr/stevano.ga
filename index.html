@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> Stevano HP </title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
+<center>
+<h1> School Stuff </h1>
+<form action="http://spanishletters.ga/">
+    <input type="submit" value="Spanish Letters">
+</form>
+<h1> Other Stuff </h1>
+<p align="center"> These buttons copy stuff to your clipboard or open a new page. </p>
+<button onclick="copyToClipboard('#p2')">Discord</button><br/>
+<button onclick="copyToClipboard('#p1')">Battle.net</button><br/>
+<form action="http://steamcommunity.com/id/spectrogaming">
+    <input type="submit" value="Steam (Page)">
+</form>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><font size="-7" color="white">
+<p id="p1">NanoSpectro#1102</p>
+<p id="p2">NanoSpectro#3967</p><br/>
+<p id="p3"></p><br/>
+<p id="p4"></p><br/>
+<p id="p5"></p><br/>
+<p id="p6"></p><br/>
+</font>
+</center>
+</body>
+</html>
