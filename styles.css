@@ -110,10 +110,10 @@ a:hover {
 }
 
 .button1 {
-    background-color: #555555; /* Green */
+    background-color: #555555; /* Blackish Gray */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -126,6 +126,6 @@ input[type=button], input[type=submit], input[type=reset] {
     color: white;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 4px 2px;
     cursor: pointer;
+	font-size: 16px;
 }
