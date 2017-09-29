@@ -4,6 +4,8 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
 function copyToClipboard(element) {
@@ -15,17 +17,30 @@ function copyToClipboard(element) {
 }
 </script>
 <center>
+
 <h1> School Stuff </h1>
 <form action="http://spanishletters.ga/">
     <input type="submit" value="Spanish Letters">
 </form>
+<div class="container">
 <h1> Other Stuff </h1>
-<p align="center"> Black buttons copy stuff to your clipboard. Blue buttons open a new page. </p>
-<button class="button1" onclick="copyToClipboard('#p2')">Discord</button><br/><br/>
-<button class="button1" onclick="copyToClipboard('#p1')">Battle.net</button><br/><br/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<button class="button1" type="button"  style="width:200px;" data-toggle="collapse" data-target="#demo">Cool Stuff</button>
+<div style="line-height:10%;"><br></div>
+<div id="demo" class="collapse">
+<button class="button1" style="width:200px" onclick="copyToClipboard('#p2')">Discord</button>
+<div style="line-height:10%;"><br></div>
+<button class="button1" style="width:200px" onclick="copyToClipboard('#p1')" width="600px">Battle.net</button>
+<div style="line-height:10%;"><br></div>
+<button class="button1" style="width:200px" onclick="copyToClipboard('#p3')">PSN and XBL</button>
+<div style="line-height:10%;"><br></div>
 <form action="http://steamcommunity.com/id/spectrogaming">
-    <input type="submit" value="Steam (Page)">
+    <input type="submit" value="Steam" style="width:200px;">
 </form>
+</link>
+<p align="center"> Black buttons (other than the dropdown button) will copy stuff to your clipboard. Blue buttons will open a new page. </p>
+</div>
+</div>
 <h1> Works of Art </h1>
 <form action="http://jaredsbizarreautism.ga/">
     <input type="submit" value="Jared's Bizarre Autism">
